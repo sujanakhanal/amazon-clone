@@ -180,3 +180,43 @@ span {
   font-size: 1.2rem;
   color: #0f1111;
 }
+
+
+/* footer  */
+.footer-panel1{
+   background-color: #37475a;
+   height: 50px;
+   color: white;
+   font-size: 0.8rem;
+   font-weight: 600;
+   display: flex;
+   justify-content: center;
+   align-items: center ;
+   margin-top: 15px;
+
+}
+
+.footer-panel2{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 400px;
+  background-color: #222f3d;
+  color: rgb(178, 176, 176);
+}
+.footer-panel2 p {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.footer-panel2 a{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  text-decoration: none;
+  color: #bfbec2;
+}
+
+.footer-panel2 a:hover{
+  text-decoration: underline;
+}

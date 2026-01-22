@@ -137,7 +137,7 @@ span {
   width: 96%;
 }
 
-/* hero-section */
+/* main-content-section */
 .hero-section {
   background-image: url("./images/hero-image.jpg");
   height: 400px;
@@ -154,7 +154,7 @@ span {
 
 .box {
   height: 420px;
-  /* border: 2px solid black; */
+ 
   width: 23%;
   background-color: white;
   padding: 20px 0px 15px;

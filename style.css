@@ -23,6 +23,7 @@
   height: 50px;
   width: 100%;
   background-size: cover;
+  cursor: pointer;
 }
 
 .border {
@@ -37,7 +38,7 @@
 .add-icon {
   display: flex;
   align-items: center;
-
+  cursor: pointer;
   color: #d6d6d6;
 }
 
@@ -45,11 +46,13 @@
   font-size: 0.85rem;
   color: #cccccc;
   margin-left: 20px;
+  cursor: pointer;
 }
 .add-sec {
   font-size: 1rem;
   color: #ffffff;
   margin-left: 1px;
+  cursor: pointer;
 }
 
 /* box3 */
@@ -61,6 +64,7 @@
   border-radius: 5px;
   width: 600px;
   justify-content: space-evenly;
+  cursor: pointer;
 }
 
 .nav-search:hover {
@@ -75,12 +79,14 @@
   background-color: #e6e6e6;
   text-align: center;
   border: none;
+  cursor: pointer;
 }
 
 .search-input {
   width: 100%;
   font-size: 1rem;
   border: none;
+  cursor: pointer;
 }
 .search-icon {
   width: 45px;
@@ -92,16 +98,19 @@
   border-bottom-right-radius: 5px;
   font-size: 1.25rem;
   color: rgb(59, 58, 58);
+  cursor: pointer;
 }
 
 /* box4 */
 span {
   font-size: 0.7rem;
+  cursor: pointer;
 }
 
 .nav-second {
   font-size: 0.85rem;
   font-weight: 700;
+  cursor: pointer;
 }
 
 /* box5 */
@@ -112,6 +121,7 @@ span {
 .nav-cart {
   font-size: 0.85rem;
   font-weight: 700;
+  cursor: pointer;
 }
 
 /* second div bar  */
@@ -127,11 +137,13 @@ span {
 .panel-all {
   font-weight: 550;
   margin-left: 15px;
+  cursor: pointer;
 }
 
 .panel-opts p {
   display: inline;
   margin-left: 40px;
+  cursor: pointer;
 }
 .panel-opts {
   width: 96%;
@@ -142,6 +154,7 @@ span {
   background-image: url("./images/hero-image.jpg");
   height: 400px;
   background-size: cover;
+  cursor: pointer;
 }
 
 /* shop-section */
@@ -153,6 +166,7 @@ span {
 }
 
 .box {
+  cursor: pointer;
   height: 420px;
 
   width: 23%;
@@ -175,6 +189,7 @@ span {
 .box-content p {
   color: #007185;
   font-size: 0.8rem;
+  cursor: pointer;
 }
 .box-content h2 {
   font-size: 1.2rem;
@@ -192,6 +207,11 @@ span {
   justify-content: center;
   align-items: center;
   margin-top: 15px;
+  cursor: pointer;
+}
+
+.footer-panel1:hover {
+  opacity: 0.9;
 }
 
 .footer-panel2 {
@@ -221,6 +241,7 @@ span {
 }
 
 .footer-panel3 {
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -234,6 +255,7 @@ span {
   height: 45px;
   width: 136px;
   background-size: cover;
+  cursor: pointer;
 }
 
 .footer-panel4 {
